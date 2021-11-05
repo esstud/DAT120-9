@@ -39,10 +39,10 @@ class MultipleChoice:
        
     
 if __name__ == '__main__':
-    liste_med_alle_instansene = read_the_document() # Unngår jeg global variabel slik?
+    liste = read_the_document() # Unngår global variabel.
     sum_spiller1 = 0
     sum_spiller2 = 0
-    for sporsmaal in liste_med_alle_instansene:
+    for sporsmaal in liste:
         print(sporsmaal)
         svar_spiller1 = int(input("Velg et svaralternativ for spiller 1: "))
         svar_spiller2 = int(input("Velg et svaralternativ for spiller 2: "))
