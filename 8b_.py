@@ -59,6 +59,9 @@ if __name__ == '__main__':
             print('Spiller 2: Feil')
     print(f'Sum spiller 1: {sum_spiller1}')
     print(f'Sum spiller 2: {sum_spiller2}')
+    
+    
+print
         
         
         
