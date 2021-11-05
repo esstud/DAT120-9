@@ -61,8 +61,7 @@ if __name__ == '__main__':
     print(f'Sum spiller 2: {sum_spiller2}')
     
     
-print
-        
+
         
         
         
